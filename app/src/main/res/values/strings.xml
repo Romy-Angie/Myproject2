@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Registro</string>
+    <string name="etNombre">Nombre Completo</string>
+    <string name="etTelefono">Número Telefonico</string>
+    <string name="etEmail">Correo electronico</string>
+    <string name="etDescripcion">Descripcion</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+    <string name="tvTitulo">Datos de Contacto</string>
+    <string name="tvNombre">Nombre:</string>
+    <string name="tvFecha">Fecha de Nacimiento:</string>
+    <string name="tvTelefono">Telefono:</string>
+    <string name="tvEmail">Correo:</string>
+    <string name="tvDescripcion">Descripcion:</string>
+    <string name="Nombre">Romy</string>
+    <string name="fecha">17/02/1993</string>
+    <string name="Telefono">993903116</string>
+    <string name="email">romy@gmail.com</string>
+    <string name="descripcion">Hola! soy Romy</string>
+    <string name="intNombre">nombre</string>
+    <string name="intFecha">fecha</string>
+    <string name="intTelefono">telefono</string>
+    <string name="intEmail">email</string>
+    <string name="intDescripcion">descripcion</string>
+    <string name="day">day</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/sclFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilNombre"
+                android:layout_width="@dimen/dimenEditTextDatos"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="10dp"
+                android:hint="@string/etNombre">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etNombre"
+                    android:layout_width="@dimen/dimenEditTextDatos"
+                    android:layout_height="@dimen/dimenAltoEditText"
+                    android:inputType="textPersonName"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/tvFecha"
+               android:textSize="9pt"
+               android:textColor="@color/colorTextprimaryCalendar"
+               android:layout_marginHorizontal="50dp"
+               android:layout_marginVertical="10dp"
+
+               />
+
+            <DatePicker
+                android:id="@+id/cvFechaNacimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#63E0F5FF"
+                />
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilTelefono"
+                android:layout_width="@dimen/dimenEditTextDatos"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="10dp"
+                android:hint="@string/etTelefono">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etTelefono"
+                    android:layout_width="@dimen/dimenEditTextDatos"
+                    android:layout_height="@dimen/dimenAltoEditText"
+                    android:inputType="phone"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEmail"
+                android:layout_width="@dimen/dimenEditTextDatos"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="10dp"
+                android:hint="@string/etEmail">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="@dimen/dimenEditTextDatos"
+                    android:layout_height="@dimen/dimenAltoEditText"
+                    android:inputType="textEmailAddress"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDescripcion"
+                android:layout_width="@dimen/dimenEditTextDatos"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="10dp"
+                android:hint="@string/etDescripcion">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDescripcion"
+                    android:layout_width="@dimen/dimenEditTextDatos"
+                    android:layout_height="@dimen/dimenAltoEditText"
+                    android:inputType="textMultiLine"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button
+    android:id="@+id/btnSiguiente"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:text="@string/btnSiguiente"
+    android:theme="@style/btnStyle"
+    />
+
+</LinearLayout>

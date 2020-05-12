@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03DAC5</color>
+    <color name="colorPrimaryDark">#77D2F7 </color>
+    <color name="colorAccent">#078891</color>
+    <color name="colorCalendarAccent">#0295D1</color>
+    <color name="colorCalendarViewWeek">#46B5BC </color>
+    <color name="colorCalendarViewDate">#79868C </color>
+    <color name="colorTextprimaryCalendar">#078891</color>
+    <color name="colorletraBoton">#FFFCFB</color>
+</resources>
